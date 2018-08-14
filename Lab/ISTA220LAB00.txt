@@ -1,0 +1,95 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20180809150137
+Username: DESKTOP-08T5MTF\FabWilson
+RunAs User: DESKTOP-08T5MTF\FabWilson
+Configuration Name: 
+Machine: DESKTOP-08T5MTF (Microsoft Windows NT 10.0.17134.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 6180
+PSVersion: 5.1.17134.165
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.165
+BuildVersion: 10.0.17134.165
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\FabWilson\Documents\PowerShell_transcript.DESKTOP-08T5MTF.lVzF7keo.20180809150137.txt
+PS C:\Users\FabWilson> cd desktop
+PS C:\Users\FabWilson\desktop> mkdir ISTA221
+
+
+    Directory: C:\Users\FabWilson\desktop
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         8/9/2018   3:02 PM                ISTA221
+
+
+PS C:\Users\FabWilson\desktop> cd ISTA221
+PS C:\Users\FabWilson\desktop\ISTA221> mkdir homework
+
+
+    Directory: C:\Users\FabWilson\desktop\ISTA221
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         8/9/2018   3:02 PM                homework
+
+
+PS C:\Users\FabWilson\desktop\ISTA221> mkdir exercises
+
+
+    Directory: C:\Users\FabWilson\desktop\ISTA221
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         8/9/2018   3:02 PM                exercises
+
+
+PS C:\Users\FabWilson\desktop\ISTA221> mkdir labs
+
+
+    Directory: C:\Users\FabWilson\desktop\ISTA221
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         8/9/2018   3:02 PM                labs
+
+
+PS C:\Users\FabWilson\desktop\ISTA221> mkdir README.md
+
+
+    Directory: C:\Users\FabWilson\desktop\ISTA221
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         8/9/2018   3:03 PM                README.md
+
+
+PS C:\Users\FabWilson\desktop\ISTA221> dir
+
+
+    Directory: C:\Users\FabWilson\desktop\ISTA221
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         8/9/2018   3:02 PM                exercises
+d-----         8/9/2018   3:02 PM                homework
+d-----         8/9/2018   3:02 PM                labs
+d-----         8/9/2018   3:03 PM                README.md
+
+
+PS C:\Users\FabWilson\desktop\ISTA221> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20180809150351
+**********************
