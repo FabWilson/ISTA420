@@ -1,0 +1,34 @@
+.headers on
+--Name: Fabiola Wilson
+--File: vacation.sql
+--Date: August 7, 2018
+drop table if exists vacation;
+
+create table vacation (
+id integer,
+destination text,
+climate text,
+temperature integer
+);
+
+insert into vacation values (1, 'Alaska', 'cold', 0);
+insert into vacation values (2, 'Bahamas', 'hot', 1);
+insert into vacation values (3, 'Canada', 'cold', 0);
+insert into vacation values (4, 'Dominican Republic', 'hot', 1);
+
+--.schema vacation
+
+select * from vacation;
+id|destination|climate|temperature
+1|Alaska|cold|0
+2|Bahamas|hot|1
+3|Canada|cold|0
+4|Dominican Republic|hot|1
+select destination from vacation where temperature = 1;
+destination
+Bahamas
+Dominican Republic
+select destination from vacation where temperature = 0;
+destination
+Alaska
+Canada
